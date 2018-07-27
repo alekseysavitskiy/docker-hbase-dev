@@ -9,4 +9,12 @@
     <name>hbase.rootdir</name>
     <value>/hbase-data</value>
   </property>
+    <property>
+      <name>hbase.master.ipc.address</name>
+      <value>0.0.0.0</value>
+  </property>
+  <property>
+      <name>hbase.regionserver.ipc.address</name>
+      <value>0.0.0.0</value>
+  </property>
 </configuration>
